@@ -58,6 +58,15 @@ b=int(input("enter a number:"))
 res=cube(a,b)
 print(res)
 
+#7th example
+def cube(a,b):
+    if a<=10:
+        return a**3
+    if b<=10:
+        return b*3
+res=cube(int(input("enter a number1")),int(input("enter a number2")))
+print(res)
+
 
 
 
