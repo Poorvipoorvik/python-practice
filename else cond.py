@@ -40,3 +40,11 @@ if s==s[::-1]:
     print("palindrome")
 else:
     print("not palindrome")
+
+# 5th check its odd or not
+
+x=int(input("enter a number"))
+if x%2!=0:
+    print("it's odd")
+else:
+    print("it's not odd")
