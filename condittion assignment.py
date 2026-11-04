@@ -78,3 +78,17 @@ if s in "aeiouAEIOU":
     print("it's vowel")
 else:
     print("it's constant")
+
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
+# 8th shop give 10 % discount if cost purchased more than 1000 ask user for quantity one quantity is 100 then judge and print if he no purchase more than 
+# 1000 then keep the total cost as same 
+
+q=int(input("enter a quantity :"))
+total=q*100
+if total >1000:
+    discout=total*10/100
+    total=total-discout
+    print(total)
+else:
+    print(total)
